@@ -1,0 +1,3758 @@
+{
+  "metadata": {
+    "device": {
+      "deviceId": "C:\\Users\\Akhil\\.android\\avd\\Pixel_6_Pro_API_31.avd",
+      "name": "Pixel 6 Pro API 31",
+      "serialNumber": "emulator-5554",
+      "isOnline": true,
+      "release": "12",
+      "sdk": 31,
+      "featureLevel": 31,
+      "model": "Pixel 6 Pro API 31",
+      "type": "HANDHELD",
+      "isEmulator": true
+    },
+    "filter": "package:mine ",
+    "projectApplicationIds": [
+      "com.tourmate.sg",
+      "com.tourmate.sg.test"
+    ]
+  },
+  "logcatMessages": [
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 574,
+        "tid": 624,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "ActivityManager",
+        "timestamp": {
+          "seconds": 1740926812,
+          "nanos": 727000000
+        }
+      },
+      "message": "Force stopping com.tourmate.sg appid\u003d10145 user\u003d0: from pid 13102"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1179,
+        "tid": 1179,
+        "applicationId": "com.android.phone",
+        "processName": "com.android.phone",
+        "tag": "CarrierSvcBindHelper",
+        "timestamp": {
+          "seconds": 1740926812,
+          "nanos": 736000000
+        }
+      },
+      "message": "No carrier app for: 0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 12873,
+        "tid": 12873,
+        "applicationId": "installer",
+        "processName": "installer",
+        "tag": "studio.deploy",
+        "timestamp": {
+          "seconds": 1740926812,
+          "nanos": 740000000
+        }
+      },
+      "message": "Received request \u0027dump\u0027"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 12873,
+        "tid": 12873,
+        "applicationId": "installer",
+        "processName": "installer",
+        "tag": "studio.deploy",
+        "timestamp": {
+          "seconds": 1740926812,
+          "nanos": 816000000
+        }
+      },
+      "message": "Received request \u0027overlayinstall\u0027"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 12873,
+        "tid": 12873,
+        "applicationId": "installer",
+        "processName": "installer",
+        "tag": "studio.deploy",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 242000000
+        }
+      },
+      "message": "ERROR: MessagePipeWrapper: Cannot write (EOF)"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 12873,
+        "tid": 12873,
+        "applicationId": "installer",
+        "processName": "installer",
+        "tag": "studio.deploy",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 243000000
+        }
+      },
+      "message": "ERROR: Unable to write magic number to pipe"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 12873,
+        "tid": 12873,
+        "applicationId": "installer",
+        "processName": "installer",
+        "tag": "studio.deploy",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 252000000
+        }
+      },
+      "message": "ERROR: MessagePipeWrapper: Cannot read (EOF)"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 12873,
+        "tid": 12873,
+        "applicationId": "installer",
+        "processName": "installer",
+        "tag": "studio.deploy",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 253000000
+        }
+      },
+      "message": "ERROR: MessagePipeWrapper: Unable to read magic number (received\u003d \u0027"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 12873,
+        "tid": 12873,
+        "applicationId": "installer",
+        "processName": "installer",
+        "tag": "studio.deploy",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 253000000
+        }
+      },
+      "message": "ERROR: Protopipe: Unable to read() from pipe"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13118,
+        "tid": 13118,
+        "applicationId": "pid-13118",
+        "processName": "pid-13118",
+        "tag": "run-as",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 278000000
+        }
+      },
+      "message": "type\u003d1400 audit(0.0:484): avc: granted { execute } for name\u003d\"install_server-80b517d0\" dev\u003d\"dm-5\" ino\u003d131807 scontext\u003du:r:runas_app:s0:c145,c256,c512,c768 tcontext\u003du:object_r:app_data_file:s0:c145,c256,c512,c768 tclass\u003dfile app\u003dcom.tourmate.sg"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13118,
+        "tid": 13118,
+        "applicationId": "pid-13118",
+        "processName": "pid-13118",
+        "tag": "install_server-",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 282000000
+        }
+      },
+      "message": "type\u003d1400 audit(0.0:485): avc: granted { execute } for path\u003d\"/data/data/com.tourmate.sg/code_cache/install_server-80b517d0\" dev\u003d\"dm-5\" ino\u003d131807 scontext\u003du:r:runas_app:s0:c145,c256,c512,c768 tcontext\u003du:object_r:app_data_file:s0:c145,c256,c512,c768 tclass\u003dfile app\u003dcom.tourmate.sg"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 13118,
+        "tid": 13118,
+        "applicationId": "pid-13118",
+        "processName": "pid-13118",
+        "tag": "studio.deploy",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 329000000
+        }
+      },
+      "message": "ERROR: Could not remove dir \u0027/data/data/com.tourmate.sg/code_cache/.ll/\u0027: No such file or directory"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 574,
+        "tid": 1310,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "ActivityManager",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 406000000
+        }
+      },
+      "message": "Force stopping com.tourmate.sg appid\u003d10145 user\u003d0: from pid 13123"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1179,
+        "tid": 1179,
+        "applicationId": "com.android.phone",
+        "processName": "com.android.phone",
+        "tag": "CarrierSvcBindHelper",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 412000000
+        }
+      },
+      "message": "No carrier app for: 0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 574,
+        "tid": 1310,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "ActivityTaskManager",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 434000000
+        }
+      },
+      "message": "START u0 {act\u003dandroid.intent.action.MAIN cat\u003d[android.intent.category.LAUNCHER] flg\u003d0x10000000 cmp\u003dcom.tourmate.sg/.MainActivity} from uid 2000"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 574,
+        "tid": 1310,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "ActivityTaskManager",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 435000000
+        }
+      },
+      "message": "Can\u0027t find TaskDisplayArea to determine support for multi window. Task id\u003d40 attached\u003dfalse"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 574,
+        "tid": 1310,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "CompatibilityChangeReporter",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 438000000
+        }
+      },
+      "message": "Compat change id reported: 174042980; UID 10145; state: DISABLED"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 574,
+        "tid": 1310,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "CompatibilityChangeReporter",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 438000000
+        }
+      },
+      "message": "Compat change id reported: 184838306; UID 10145; state: DISABLED"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 574,
+        "tid": 1310,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "CompatibilityChangeReporter",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 441000000
+        }
+      },
+      "message": "Compat change id reported: 185004937; UID 10145; state: DISABLED"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 574,
+        "tid": 1310,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "CompatibilityChangeReporter",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 443000000
+        }
+      },
+      "message": "Compat change id reported: 181136395; UID 10145; state: DISABLED"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 574,
+        "tid": 1310,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "CompatibilityChangeReporter",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 444000000
+        }
+      },
+      "message": "Compat change id reported: 174042936; UID 10145; state: DISABLED"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 574,
+        "tid": 1310,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "CompatibilityChangeReporter",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 448000000
+        }
+      },
+      "message": "Compat change id reported: 168419799; UID 10145; state: DISABLED"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 967,
+        "tid": 1016,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "PhoneStartingWindowTypeAlgorithm",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 449000000
+        }
+      },
+      "message": "preferredStartingWindowType newTask:true taskSwitch:true processRunning:false allowTaskSnapshot:true activityCreated:false useEmptySplashScreen:true legacySplashScreen:false topIsHome:false"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 967,
+        "tid": 1016,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "StartingSurfaceDrawer",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 450000000
+        }
+      },
+      "message": "addSplashScreen com.tourmate.sg theme\u003d7f120268 task\u003d40 suggestType\u003d3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 967,
+        "tid": 1017,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "StartingSurfaceDrawer",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 452000000
+        }
+      },
+      "message": "window attributes color: 0 icon null duration 0 brandImage null"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 967,
+        "tid": 1017,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "SplashScreenView",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 453000000
+        }
+      },
+      "message": "Build android.window.SplashScreenView{2b677d9 V.E...... ......ID 0,0-0,0}\nIcon: view: null drawable: null size: 0\nBranding: view: android.view.View{b0b559e G.ED..... ......I. 0,0-0,0 #10204a6 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 967,
+        "tid": 1017,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "StartingSurfaceDrawer",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 453000000
+        }
+      },
+      "message": "fillViewWithIcon surfaceWindowView android.window.SplashScreenView{2b677d9 V.E...... ......ID 0,0-0,0}"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 574,
+        "tid": 630,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "CompatibilityChangeReporter",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 474000000
+        }
+      },
+      "message": "Compat change id reported: 135634846; UID 10145; state: DISABLED"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 574,
+        "tid": 630,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "CompatibilityChangeReporter",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 474000000
+        }
+      },
+      "message": "Compat change id reported: 177438394; UID 10145; state: DISABLED"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 358,
+        "tid": 358,
+        "applicationId": "android.hardware.graphics.allocator@3.0-service",
+        "processName": "android.hardware.graphics.allocator@3.0-service",
+        "tag": "goldfish-address-space",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 474000000
+        }
+      },
+      "message": "claimShared: Ask to claim region [0x3f0000000 0x3f1124000]"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 574,
+        "tid": 630,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "CompatibilityChangeReporter",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 474000000
+        }
+      },
+      "message": "Compat change id reported: 135772972; UID 10145; state: DISABLED"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 574,
+        "tid": 630,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "CompatibilityChangeReporter",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 474000000
+        }
+      },
+      "message": "Compat change id reported: 135754954; UID 10145; state: ENABLED"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 574,
+        "tid": 645,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "CompatibilityChangeReporter",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 475000000
+        }
+      },
+      "message": "Compat change id reported: 143937733; UID 10145; state: ENABLED"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 337,
+        "tid": 337,
+        "applicationId": "pid-337",
+        "processName": "pid-337",
+        "tag": "Zygote",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 489000000
+        }
+      },
+      "message": "Forked child process 13131"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 574,
+        "tid": 645,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "ActivityManager",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 490000000
+        }
+      },
+      "message": "Start proc 13131:com.tourmate.sg/u0a145 for pre-top-activity {com.tourmate.sg/com.tourmate.sg.MainActivity}"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "pid-13131",
+        "processName": "pid-13131",
+        "tag": "com.tourmate.s",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 510000000
+        }
+      },
+      "message": "Late-enabling -Xcheck:jni"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 1228,
+        "tid": 1856,
+        "applicationId": "com.google.android.apps.nexuslauncher",
+        "processName": "com.google.android.apps.nexuslauncher",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 523000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d2483.88ms min\u003d13.14ms max\u003d19736.68ms count\u003d8"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 358,
+        "tid": 358,
+        "applicationId": "android.hardware.graphics.allocator@3.0-service",
+        "processName": "android.hardware.graphics.allocator@3.0-service",
+        "tag": "goldfish-address-space",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 523000000
+        }
+      },
+      "message": "claimShared: Ask to claim region [0x3f1124000 0x3f2248000]"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 358,
+        "tid": 358,
+        "applicationId": "android.hardware.graphics.allocator@3.0-service",
+        "processName": "android.hardware.graphics.allocator@3.0-service",
+        "tag": "goldfish-address-space",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 560000000
+        }
+      },
+      "message": "claimShared: Ask to claim region [0x3f2248000 0x3f336c000]"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1677,
+        "tid": 1677,
+        "applicationId": "com.google.android.googlequicksearchbox",
+        "processName": "com.google.android.googlequicksearchbox:interactor",
+        "tag": "GsaVoiceInteractionSrv",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 577000000
+        }
+      },
+      "message": "Handling ACTION_STOP_HOTWORD"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 1677,
+        "tid": 1677,
+        "applicationId": "com.google.android.googlequicksearchbox",
+        "processName": "com.google.android.googlequicksearchbox:interactor",
+        "tag": "HwDetectorWithState",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 580000000
+        }
+      },
+      "message": "a: 3"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 967,
+        "tid": 1028,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 667000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d27177.46ms min\u003d27177.46ms max\u003d27177.46ms count\u003d1"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 967,
+        "tid": 1028,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 676000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d1249.02ms min\u003d12.76ms max\u003d19738.68ms count\u003d16"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "pid-13131",
+        "processName": "pid-13131",
+        "tag": "com.tourmate.s",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 751000000
+        }
+      },
+      "message": "Unexpected CPU variant for X86 using defaults: x86_64"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 438,
+        "tid": 448,
+        "applicationId": "adbd",
+        "processName": "adbd",
+        "tag": "adbd",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 788000000
+        }
+      },
+      "message": "jdwp connection from 13131"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "pid-13131",
+        "processName": "pid-13131",
+        "tag": "re-initialized\u003e",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 890000000
+        }
+      },
+      "message": "type\u003d1400 audit(0.0:486): avc: granted { execute } for path\u003d\"/data/data/com.tourmate.sg/code_cache/startup_agents/80b517d0-agent.so\" dev\u003d\"dm-5\" ino\u003d147933 scontext\u003du:r:untrusted_app:s0:c145,c256,c512,c768 tcontext\u003du:object_r:app_data_file:s0:c145,c256,c512,c768 tclass\u003dfile app\u003dcom.tourmate.sg"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "pid-13131",
+        "processName": "pid-13131",
+        "tag": "studio.deploy",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 907000000
+        }
+      },
+      "message": "Startup agent attached to VM"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "pid-13131",
+        "processName": "pid-13131",
+        "tag": "studio.deploy",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 917000000
+        }
+      },
+      "message": "No existing instrumentation found. Loading instrumentation from instruments-885acadd.jar"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 574,
+        "tid": 624,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "ActivityManager",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 920000000
+        }
+      },
+      "message": "Unable to start service Intent { act\u003dandroid.service.smartspace.SmartspaceService cmp\u003dcom.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService } U\u003d0: not found"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 574,
+        "tid": 624,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "RemoteSmartspaceService",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 924000000
+        }
+      },
+      "message": "could not bind to Intent { act\u003dandroid.service.smartspace.SmartspaceService cmp\u003dcom.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService } using flags 67112961"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 574,
+        "tid": 574,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "ActivityManager",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 926000000
+        }
+      },
+      "message": "Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@8dbc69b"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "pid-13131",
+        "processName": "pid-13131",
+        "tag": "com.tourmate.s",
+        "timestamp": {
+          "seconds": 1740926813,
+          "nanos": 947000000
+        }
+      },
+      "message": "DexFile /data/data/com.tourmate.sg/code_cache/.studio/instruments-885acadd.jar is in boot class path but is not in a known location"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 967,
+        "tid": 1028,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1740926814,
+          "nanos": 688000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d19.70ms min\u003d13.17ms max\u003d180.17ms count\u003d51"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "pid-13131",
+        "processName": "pid-13131",
+        "tag": "studio.deploy",
+        "timestamp": {
+          "seconds": 1740926814,
+          "nanos": 709000000
+        }
+      },
+      "message": "ModifyParameterTransform failed: Landroid/app/ApplicationLoaders;"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "pid-13131",
+        "processName": "pid-13131",
+        "tag": "com.tourmate.s",
+        "timestamp": {
+          "seconds": 1740926814,
+          "nanos": 716000000
+        }
+      },
+      "message": "Current dex file has more than one class in it. Calling RetransformClasses on this class might fail if no transformations are applied to it!"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "pid-13131",
+        "processName": "pid-13131",
+        "tag": "com.tourmate.s",
+        "timestamp": {
+          "seconds": 1740926814,
+          "nanos": 807000000
+        }
+      },
+      "message": "Current dex file has more than one class in it. Calling RetransformClasses on this class might fail if no transformations are applied to it!"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "pid-13131",
+        "processName": "pid-13131",
+        "tag": "com.tourmate.s",
+        "timestamp": {
+          "seconds": 1740926814,
+          "nanos": 812000000
+        }
+      },
+      "message": "Redefining intrinsic method java.lang.Thread java.lang.Thread.currentThread(). This may cause the unexpected use of the original definition of java.lang.Thread java.lang.Thread.currentThread()in methods that have already been compiled."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "pid-13131",
+        "processName": "pid-13131",
+        "tag": "com.tourmate.s",
+        "timestamp": {
+          "seconds": 1740926814,
+          "nanos": 812000000
+        }
+      },
+      "message": "Redefining intrinsic method boolean java.lang.Thread.interrupted(). This may cause the unexpected use of the original definition of boolean java.lang.Thread.interrupted()in methods that have already been compiled."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "pid-13131",
+        "processName": "pid-13131",
+        "tag": "com.tourmate.s",
+        "timestamp": {
+          "seconds": 1740926814,
+          "nanos": 845000000
+        }
+      },
+      "message": "Current dex file has more than one class in it. Calling RetransformClasses on this class might fail if no transformations are applied to it!"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "pid-13131",
+        "processName": "pid-13131",
+        "tag": "com.tourmate.s",
+        "timestamp": {
+          "seconds": 1740926815,
+          "nanos": 272000000
+        }
+      },
+      "message": "Current dex file has more than one class in it. Calling RetransformClasses on this class might fail if no transformations are applied to it!"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "pid-13131",
+        "processName": "pid-13131",
+        "tag": "com.tourmate.s",
+        "timestamp": {
+          "seconds": 1740926815,
+          "nanos": 425000000
+        }
+      },
+      "message": "Current dex file has more than one class in it. Calling RetransformClasses on this class might fail if no transformations are applied to it!"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "pid-13131",
+        "processName": "pid-13131",
+        "tag": "studio.deploy",
+        "timestamp": {
+          "seconds": 1740926815,
+          "nanos": 431000000
+        }
+      },
+      "message": "Registering DispatchJNI"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "pid-13131",
+        "processName": "pid-13131",
+        "tag": "studio.deploy",
+        "timestamp": {
+          "seconds": 1740926815,
+          "nanos": 431000000
+        }
+      },
+      "message": "Found com/android/tools/deploy/interpreter/JNI"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 0,
+        "tid": 0,
+        "applicationId": "",
+        "processName": "",
+        "tag": "",
+        "timestamp": {
+          "seconds": 0,
+          "nanos": 0
+        }
+      },
+      "message": "---------------------------- PROCESS STARTED (13131) for package com.tourmate.sg ----------------------------"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "pid-13131",
+        "processName": "pid-13131",
+        "tag": "CompatibilityChangeReporter",
+        "timestamp": {
+          "seconds": 1740926815,
+          "nanos": 436000000
+        }
+      },
+      "message": "Compat change id reported: 171979766; UID 10145; state: ENABLED"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13143,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "System",
+        "timestamp": {
+          "seconds": 1740926815,
+          "nanos": 804000000
+        }
+      },
+      "message": "A resource failed to call close. "
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "GraphicsEnvironment",
+        "timestamp": {
+          "seconds": 1740926815,
+          "nanos": 852000000
+        }
+      },
+      "message": "ANGLE Developer option for \u0027com.tourmate.sg\u0027 set to: \u0027default\u0027"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "GraphicsEnvironment",
+        "timestamp": {
+          "seconds": 1740926815,
+          "nanos": 852000000
+        }
+      },
+      "message": "Neither updatable production driver nor prerelease driver is supported."
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "NetworkSecurityConfig",
+        "timestamp": {
+          "seconds": 1740926815,
+          "nanos": 855000000
+        }
+      },
+      "message": "No Network Security Config specified, using platform default"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "NetworkSecurityConfig",
+        "timestamp": {
+          "seconds": 1740926815,
+          "nanos": 855000000
+        }
+      },
+      "message": "No Network Security Config specified, using platform default"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "FirebaseApp",
+        "timestamp": {
+          "seconds": 1740926815,
+          "nanos": 929000000
+        }
+      },
+      "message": "Device unlocked: initializing all Firebase APIs for app [DEFAULT]"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "FirebaseInitProvider",
+        "timestamp": {
+          "seconds": 1740926815,
+          "nanos": 939000000
+        }
+      },
+      "message": "FirebaseApp initialization successful"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13151,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "libEGL",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 47000000
+        }
+      },
+      "message": "loaded /vendor/lib64/egl/libEGL_emulation.so"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13151,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "libEGL",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 50000000
+        }
+      },
+      "message": "loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13151,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "libEGL",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 54000000
+        }
+      },
+      "message": "loaded /vendor/lib64/egl/libGLESv2_emulation.so"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "AppCompatDelegate",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 101000000
+        }
+      },
+      "message": "Checking for metadata for AppLocalesMetadataHolderService : Service not found"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "com.tourmate.s",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 249000000
+        }
+      },
+      "message": "Accessing hidden method Landroid/view/View;-\u003ecomputeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (unsupported, reflection, allowed)"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "com.tourmate.s",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 282000000
+        }
+      },
+      "message": "Accessing hidden method Landroid/view/ViewGroup;-\u003emakeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "MapsInitializer",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 347000000
+        }
+      },
+      "message": "preferredRenderer: null"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "zzcc",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 348000000
+        }
+      },
+      "message": "preferredRenderer: null"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "zzcc",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 363000000
+        }
+      },
+      "message": "Making Creator dynamically"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 5560,
+        "tid": 5591,
+        "applicationId": "com.google.android.gms",
+        "processName": "com.google.android.gms.persistent",
+        "tag": "ProviderHelper",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 375000000
+        }
+      },
+      "message": "Unknown dynamite feature maps_core_dynamite"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "DynamiteModule",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 379000000
+        }
+      },
+      "message": "Local module descriptor class for com.google.android.gms.maps_core_dynamite not found."
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "DynamiteModule",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 379000000
+        }
+      },
+      "message": "Considering local module com.google.android.gms.maps_core_dynamite:0 and remote module com.google.android.gms.maps_core_dynamite:0"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "zzcc",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 380000000
+        }
+      },
+      "message": "Attempting to load maps_dynamite again."
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "DynamiteModule",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 395000000
+        }
+      },
+      "message": "Considering local module com.google.android.gms.maps_dynamite:0 and remote module com.google.android.gms.maps_dynamite:203115000"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "DynamiteModule",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 395000000
+        }
+      },
+      "message": "Selected remote version of com.google.android.gms.maps_dynamite, version \u003e\u003d 203115000"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "DynamiteModule",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 396000000
+        }
+      },
+      "message": "Dynamite loader version \u003e\u003d 2, using loadModule2NoCrashUtils"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "com.tourmate.s",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 433000000
+        }
+      },
+      "message": "ClassLoaderContext type mismatch. expected\u003dPCL, found\u003dDLC (PCL[] | DLC[];PCL[/data/app/~~wrwwd0O1t96k1ghU4fj8eg\u003d\u003d/com.tourmate.sg-MvoAvw3ADf2ck3OoYcSp_A\u003d\u003d/base.apk*2745756867:/data/app/~~wrwwd0O1t96k1ghU4fj8eg\u003d\u003d/com.tourmate.sg-MvoAvw3ADf2ck3OoYcSp_A\u003d\u003d/base.apk!classes2.dex*3950804239:/data/app/~~wrwwd0O1t96k1ghU4fj8eg\u003d\u003d/com.tourmate.sg-MvoAvw3ADf2ck3OoYcSp_A\u003d\u003d/base.apk!classes3.dex*4014188313:/data/app/~~wrwwd0O1t96k1ghU4fj8eg\u003d\u003d/com.tourmate.sg-MvoAvw3ADf2ck3OoYcSp_A\u003d\u003d/base.apk!classes4.dex*315488290:/data/app/~~wrwwd0O1t96k1ghU4fj8eg\u003d\u003d/com.tourmate.sg-MvoAvw3ADf2ck3OoYcSp_A\u003d\u003d/base.apk!classes5.dex*2894269075]{PCL[/system/framework/org.apache.http.legacy.jar*2058259660]})"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "Google Maps Android API",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 453000000
+        }
+      },
+      "message": "Google Play services client version: 18020000"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "Google Maps Android API",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 488000000
+        }
+      },
+      "message": "Google Play services package version: 225014047"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "Google Maps Android API",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 488000000
+        }
+      },
+      "message": "Google Play services maps renderer version(legacy): 203115000"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "MapsInitializer",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 564000000
+        }
+      },
+      "message": "loadedRenderer: LEGACY"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "zzcc",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 565000000
+        }
+      },
+      "message": "preferredRenderer: null"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "Google Maps Android API",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 565000000
+        }
+      },
+      "message": "Google Play services package version: 225014047"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "Google Maps Android API",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 565000000
+        }
+      },
+      "message": "Google Play services maps renderer version(legacy): 203115000"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "CompatibilityChangeReporter",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 624000000
+        }
+      },
+      "message": "Compat change id reported: 171228096; UID 10145; state: ENABLED"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "Choreographer",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 717000000
+        }
+      },
+      "message": "Skipped 45 frames!  The application may be doing too much work on its main thread."
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 574,
+        "tid": 631,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "CompatibilityChangeReporter",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 731000000
+        }
+      },
+      "message": "Compat change id reported: 158002302; UID 10145; state: ENABLED"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13149,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "HostConnection",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 738000000
+        }
+      },
+      "message": "createUnique: call"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13149,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "HostConnection",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 739000000
+        }
+      },
+      "message": "HostConnection::get() New Host Connection established 0x759abcd97ed0, tid 13149"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13149,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "HostConnection",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 746000000
+        }
+      },
+      "message": "HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1 "
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 186,
+        "tid": 186,
+        "applicationId": "hwservicemanager",
+        "processName": "hwservicemanager",
+        "tag": "hwservicemanager",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 749000000
+        }
+      },
+      "message": "getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device VINTF manifest."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13149,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "OpenGLRenderer",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 750000000
+        }
+      },
+      "message": "Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without..."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13149,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "OpenGLRenderer",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 750000000
+        }
+      },
+      "message": "Failed to initialize 101010-2 format, error \u003d EGL_SUCCESS"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13149,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 764000000
+        }
+      },
+      "message": "eglCreateContext: 0x759abcd98350: maj 3 min 1 rcv 4"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13149,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 807000000
+        }
+      },
+      "message": "eglMakeCurrent: 0x759abcd98350: ver 3 1 (tinfo 0x759ce58fc080) (first time)"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 420,
+        "tid": 552,
+        "applicationId": "surfaceflinger",
+        "processName": "surfaceflinger",
+        "tag": "HWComposer",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 816000000
+        }
+      },
+      "message": "getSupportedContentTypes: getSupportedContentTypes failed for display 4619827259835644672: Unsupported (8)"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 186,
+        "tid": 186,
+        "applicationId": "hwservicemanager",
+        "processName": "hwservicemanager",
+        "tag": "hwservicemanager",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 817000000
+        }
+      },
+      "message": "getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest."
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 13131,
+        "tid": 13149,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "Gralloc4",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 818000000
+        }
+      },
+      "message": "mapper 4.x is not supported"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13149,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "HostConnection",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 819000000
+        }
+      },
+      "message": "createUnique: call"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13149,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "HostConnection",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 819000000
+        }
+      },
+      "message": "HostConnection::get() New Host Connection established 0x759abcd981d0, tid 13149"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13149,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "goldfish-address-space",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 820000000
+        }
+      },
+      "message": "allocate: Ask for block of size 0x100"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13149,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "goldfish-address-space",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 820000000
+        }
+      },
+      "message": "allocate: ioctl allocate returned offset 0x3e3ffe000 size 0x2000"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 186,
+        "tid": 186,
+        "applicationId": "hwservicemanager",
+        "processName": "hwservicemanager",
+        "tag": "hwservicemanager",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 822000000
+        }
+      },
+      "message": "getTransport: Cannot find entry android.hardware.graphics.allocator@4.0::IAllocator/default in either framework or device VINTF manifest."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13149,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "Gralloc4",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 822000000
+        }
+      },
+      "message": "allocator 4.x is not supported"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 358,
+        "tid": 358,
+        "applicationId": "android.hardware.graphics.allocator@3.0-service",
+        "processName": "android.hardware.graphics.allocator@3.0-service",
+        "tag": "goldfish-address-space",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 824000000
+        }
+      },
+      "message": "claimShared: Ask to claim region [0x3e4af8000 0x3e5c1c000]"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13149,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "HostConnection",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 859000000
+        }
+      },
+      "message": "HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1 "
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 358,
+        "tid": 358,
+        "applicationId": "android.hardware.graphics.allocator@3.0-service",
+        "processName": "android.hardware.graphics.allocator@3.0-service",
+        "tag": "goldfish-address-space",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 861000000
+        }
+      },
+      "message": "claimShared: Ask to claim region [0x3ec000000 0x3ed124000]"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13181,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "HostConnection",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 862000000
+        }
+      },
+      "message": "createUnique: call"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13181,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "HostConnection",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 864000000
+        }
+      },
+      "message": "HostConnection::get() New Host Connection established 0x759abcd98590, tid 13181"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13181,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "HostConnection",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 871000000
+        }
+      },
+      "message": "HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1 "
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 358,
+        "tid": 358,
+        "applicationId": "android.hardware.graphics.allocator@3.0-service",
+        "processName": "android.hardware.graphics.allocator@3.0-service",
+        "tag": "goldfish-address-space",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 892000000
+        }
+      },
+      "message": "claimShared: Ask to claim region [0x3ed124000 0x3ee248000]"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13181,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 904000000
+        }
+      },
+      "message": "eglCreateContext: 0x759abcd97f90: maj 1 min 0 rcv 1"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 358,
+        "tid": 413,
+        "applicationId": "android.hardware.graphics.allocator@3.0-service",
+        "processName": "android.hardware.graphics.allocator@3.0-service",
+        "tag": "goldfish-address-space",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 933000000
+        }
+      },
+      "message": "claimShared: Ask to claim region [0x3ea248000 0x3eb0f6000]"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 967,
+        "tid": 1016,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "StartingSurfaceDrawer",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 982000000
+        }
+      },
+      "message": "Task start finish, remove starting surface for task 40"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 967,
+        "tid": 1016,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "StartingSurfaceDrawer",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 982000000
+        }
+      },
+      "message": "Removing splash screen window for task: 40"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 574,
+        "tid": 627,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "ActivityTaskManager",
+        "timestamp": {
+          "seconds": 1740926816,
+          "nanos": 984000000
+        }
+      },
+      "message": "Displayed com.tourmate.sg/.MainActivity: +3s548ms"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 13131,
+        "tid": 13146,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "bb",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 9000000
+        }
+      },
+      "message": "Successfully registered with Phenotype."
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13181,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 17000000
+        }
+      },
+      "message": "eglMakeCurrent: 0x759abcd97f90: ver 1 0 (tinfo 0x759ce58fc180) (first time)"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 13131,
+        "tid": 13147,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "OpenGLRenderer",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 25000000
+        }
+      },
+      "message": "Davey! duration\u003d1004ms; Flags\u003d1, FrameTimelineVsyncId\u003d32631, IntendedVsync\u003d2982978815712, Vsync\u003d2983728815682, InputEventId\u003d0, HandleInputStart\u003d2983730832700, AnimationStart\u003d2983730866700, PerformTraversalsStart\u003d2983731510900, DrawStart\u003d2983873768800, FrameDeadline\u003d2982995482378, FrameInterval\u003d2983730256900, FrameStartTime\u003d16666666, SyncQueued\u003d2983887143400, SyncStart\u003d2983905250600, IssueDrawCommandsStart\u003d2983907584700, SwapBuffers\u003d2983978543700, FrameCompleted\u003d2984001165800, DequeueBufferDuration\u003d43100, QueueBufferDuration\u003d1255900, GpuCompleted\u003d2984001165800, SwapBuffersCompleted\u003d2983989532500, DisplayPresentTime\u003d0, "
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13181,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 26000000
+        }
+      },
+      "message": "eglMakeCurrent: 0x759abcd97f90: ver 1 0 (tinfo 0x759ce58fc180) (first time)"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13198,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "DynamiteModule",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 97000000
+        }
+      },
+      "message": "Local module descriptor class for com.google.android.gms.providerinstaller.dynamite not found."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 5560,
+        "tid": 5591,
+        "applicationId": "com.google.android.gms",
+        "processName": "com.google.android.gms.persistent",
+        "tag": "ProviderHelper",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 104000000
+        }
+      },
+      "message": "Unknown dynamite feature providerinstaller.dynamite"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 574,
+        "tid": 624,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "ConnectivityService",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 104000000
+        }
+      },
+      "message": "requestNetwork for uid/pid:10145/13131 activeRequest: null callbackRequest: 186 [NetworkRequest [ REQUEST id\u003d187, [ Capabilities: INTERNET\u0026NOT_RESTRICTED\u0026TRUSTED\u0026NOT_VCN_MANAGED Uid: 10145 RequestorUid: 10145 RequestorPkg: com.tourmate.sg] ]] callback flags: 0 priority: 2147483647"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 574,
+        "tid": 897,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "ConnectivityService",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 105000000
+        }
+      },
+      "message": "NetReassign [187 : null → 101]"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 574,
+        "tid": 886,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "WifiNetworkFactory",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 108000000
+        }
+      },
+      "message": "got request NetworkRequest [ REQUEST id\u003d187, [ Capabilities: INTERNET\u0026NOT_RESTRICTED\u0026TRUSTED\u0026NOT_VCN_MANAGED Uid: 10145 RequestorUid: 10145 RequestorPkg: com.tourmate.sg] ]"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 574,
+        "tid": 886,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "UntrustedWifiNetworkFactory",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 110000000
+        }
+      },
+      "message": "got request NetworkRequest [ REQUEST id\u003d187, [ Capabilities: INTERNET\u0026NOT_RESTRICTED\u0026TRUSTED\u0026NOT_VCN_MANAGED Uid: 10145 RequestorUid: 10145 RequestorPkg: com.tourmate.sg] ]"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 574,
+        "tid": 886,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "OemPaidWifiNetworkFactory",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 110000000
+        }
+      },
+      "message": "got request NetworkRequest [ REQUEST id\u003d187, [ Capabilities: INTERNET\u0026NOT_RESTRICTED\u0026TRUSTED\u0026NOT_VCN_MANAGED Uid: 10145 RequestorUid: 10145 RequestorPkg: com.tourmate.sg] ]"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 13131,
+        "tid": 13198,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "DynamiteModule",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 115000000
+        }
+      },
+      "message": "Considering local module com.google.android.gms.providerinstaller.dynamite:0 and remote module com.google.android.gms.providerinstaller.dynamite:0"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1534,
+        "tid": 1534,
+        "applicationId": "com.google.android.inputmethod.latin",
+        "processName": "com.google.android.inputmethod.latin",
+        "tag": "GoogleInputMethodService",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 118000000
+        }
+      },
+      "message": "GoogleInputMethodService.onFinishInput():3420 "
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1534,
+        "tid": 1534,
+        "applicationId": "com.google.android.inputmethod.latin",
+        "processName": "com.google.android.inputmethod.latin",
+        "tag": "GoogleInputMethodService",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 119000000
+        }
+      },
+      "message": "GoogleInputMethodService.onStartInput():2002 "
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 1534,
+        "tid": 1534,
+        "applicationId": "com.google.android.inputmethod.latin",
+        "processName": "com.google.android.inputmethod.latin",
+        "tag": "DeviceUnlockedTag",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 121000000
+        }
+      },
+      "message": "DeviceUnlockedTag.notifyDeviceLockStatusChanged():31 Notify device unlocked."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13198,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "ProviderInstaller",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 126000000
+        }
+      },
+      "message": "Failed to load providerinstaller module: No acceptable module com.google.android.gms.providerinstaller.dynamite found. Local version is 0 and remote version is 0."
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 13131,
+        "tid": 13187,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "Google Maps Android API",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 136000000
+        }
+      },
+      "message": "Authorization failure.  Please see https://developers.google.com/maps/documentation/android-api/start for how to correctly set up the map."
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 13131,
+        "tid": 13187,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "Google Maps Android API",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 138000000
+        }
+      },
+      "message": "In the Google Developer Console (https://console.developers.google.com)\nEnsure that the \"Google Maps Android API v2\" is enabled.\nEnsure that the following Android Key exists:\n\tAPI Key: \n\tAndroid Application (\u003ccert_fingerprint\u003e;\u003cpackage_name\u003e): 98:3E:10:3B:31:24:56:7D:16:FD:3B:D3:B0:28:50:E5:48:B0:3D:21;com.tourmate.sg"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 358,
+        "tid": 413,
+        "applicationId": "android.hardware.graphics.allocator@3.0-service",
+        "processName": "android.hardware.graphics.allocator@3.0-service",
+        "tag": "goldfish-address-space",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 170000000
+        }
+      },
+      "message": "claimShared: Ask to claim region [0x3e8000000 0x3e8eae000]"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 358,
+        "tid": 413,
+        "applicationId": "android.hardware.graphics.allocator@3.0-service",
+        "processName": "android.hardware.graphics.allocator@3.0-service",
+        "tag": "goldfish-address-space",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 217000000
+        }
+      },
+      "message": "claimShared: Ask to claim region [0x3e8eae000 0x3e9d5c000]"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13198,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "nativeloader",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 226000000
+        }
+      },
+      "message": "classloader namespace configured for unbundled product apk. library_path\u003d/product/priv-app/PrebuiltGmsCore/lib/x86_64:/product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk!/lib/x86_64:/product/lib64:/system/product/lib64"
+    },
+    {
+      "header": {
+        "logLevel": "VERBOSE",
+        "pid": 13131,
+        "tid": 13198,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "NativeCrypto",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 283000000
+        }
+      },
+      "message": "Registering com/google/android/gms/org/conscrypt/NativeCrypto\u0027s 295 native methods..."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 574,
+        "tid": 624,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "InputManager-JNI",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 286000000
+        }
+      },
+      "message": "Input channel object \u0027af3da33 Splash Screen com.tourmate.sg (client)\u0027 was disposed without first being removed with the input manager!"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 5560,
+        "tid": 5638,
+        "applicationId": "com.google.android.gms",
+        "processName": "com.google.android.gms.persistent",
+        "tag": "FontLog",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 299000000
+        }
+      },
+      "message": "Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id\u003d132 ]"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 5560,
+        "tid": 5638,
+        "applicationId": "com.google.android.gms",
+        "processName": "com.google.android.gms.persistent",
+        "tag": "FontLog",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 302000000
+        }
+      },
+      "message": "Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id\u003d132 ]"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 5560,
+        "tid": 5638,
+        "applicationId": "com.google.android.gms",
+        "processName": "com.google.android.gms.persistent",
+        "tag": "FontLog",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 306000000
+        }
+      },
+      "message": "Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode\u003dSUCCESS, resolution\u003dnull} [CONTEXT service_id\u003d132 ]"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 5560,
+        "tid": 5638,
+        "applicationId": "com.google.android.gms",
+        "processName": "com.google.android.gms.persistent",
+        "tag": "FontLog",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 310000000
+        }
+      },
+      "message": "Pulling font file for id \u003d 26, cache size \u003d 4 [CONTEXT service_id\u003d132 ]"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 5560,
+        "tid": 5638,
+        "applicationId": "com.google.android.gms",
+        "processName": "com.google.android.gms.persistent",
+        "tag": "FontLog",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 315000000
+        }
+      },
+      "message": "Pulling font file for id \u003d 26, cache size \u003d 4 [CONTEXT service_id\u003d132 ]"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13198,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "com.tourmate.s",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 319000000
+        }
+      },
+      "message": "Accessing hidden method Ljava/security/spec/ECParameterSpec;-\u003egetCurveName()Ljava/lang/String; (unsupported, reflection, allowed)"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 13131,
+        "tid": 13198,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "ProviderInstaller",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 358000000
+        }
+      },
+      "message": "Installed default security provider GmsCore_OpenSSL"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 967,
+        "tid": 1028,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 475000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d415.46ms min\u003d6.71ms max\u003d3671.65ms count\u003d9"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 967,
+        "tid": 1028,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 480000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d61.90ms min\u003d7.75ms max\u003d2059.75ms count\u003d45"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 574,
+        "tid": 1310,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "ConnectivityService",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 520000000
+        }
+      },
+      "message": "requestNetwork for uid/pid:10145/13131 activeRequest: null callbackRequest: 188 [NetworkRequest [ REQUEST id\u003d189, [ Capabilities: INTERNET\u0026NOT_RESTRICTED\u0026TRUSTED\u0026NOT_VCN_MANAGED Uid: 10145 RequestorUid: 10145 RequestorPkg: com.tourmate.sg] ]] callback flags: 0 priority: 2147483647"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 574,
+        "tid": 897,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "ConnectivityService",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 521000000
+        }
+      },
+      "message": "NetReassign [189 : null → 101]"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 574,
+        "tid": 886,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "WifiNetworkFactory",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 522000000
+        }
+      },
+      "message": "got request NetworkRequest [ REQUEST id\u003d189, [ Capabilities: INTERNET\u0026NOT_RESTRICTED\u0026TRUSTED\u0026NOT_VCN_MANAGED Uid: 10145 RequestorUid: 10145 RequestorPkg: com.tourmate.sg] ]"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 574,
+        "tid": 886,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "UntrustedWifiNetworkFactory",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 523000000
+        }
+      },
+      "message": "got request NetworkRequest [ REQUEST id\u003d189, [ Capabilities: INTERNET\u0026NOT_RESTRICTED\u0026TRUSTED\u0026NOT_VCN_MANAGED Uid: 10145 RequestorUid: 10145 RequestorPkg: com.tourmate.sg] ]"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 574,
+        "tid": 886,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "OemPaidWifiNetworkFactory",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 523000000
+        }
+      },
+      "message": "got request NetworkRequest [ REQUEST id\u003d189, [ Capabilities: INTERNET\u0026NOT_RESTRICTED\u0026TRUSTED\u0026NOT_VCN_MANAGED Uid: 10145 RequestorUid: 10145 RequestorPkg: com.tourmate.sg] ]"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 336,
+        "tid": 13211,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 608000000
+        }
+      },
+      "message": "GetAddrInfoHandler::run: {101 101 101 983141 10145 0}"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 336,
+        "tid": 13211,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 608000000
+        }
+      },
+      "message": "resolv_getaddrinfo: explore_fqdn(): ai_family\u003d0 ai_socktype\u003d1 ai_protocol\u003d6"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 336,
+        "tid": 13212,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 610000000
+        }
+      },
+      "message": "doQuery: (1, 28)"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 336,
+        "tid": 13213,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 610000000
+        }
+      },
+      "message": "doQuery: (1, 1)"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 336,
+        "tid": 13212,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 610000000
+        }
+      },
+      "message": "res_nmkquery: (QUERY, IN, AAAA)"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 336,
+        "tid": 13213,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 610000000
+        }
+      },
+      "message": "res_nmkquery: (QUERY, IN, A)"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 336,
+        "tid": 13212,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 610000000
+        }
+      },
+      "message": "res_nsend"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 336,
+        "tid": 13212,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 611000000
+        }
+      },
+      "message": "resolv_cache_lookup: lookup"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 336,
+        "tid": 13212,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 611000000
+        }
+      },
+      "message": "resolv_cache_lookup: FOUND IN CACHE entry\u003d0x7c6fefac10f0"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 336,
+        "tid": 13212,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 611000000
+        }
+      },
+      "message": "doQuery: rcode\u003d0, ancount\u003d1"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 336,
+        "tid": 13213,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 612000000
+        }
+      },
+      "message": "res_nsend"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 336,
+        "tid": 13213,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 612000000
+        }
+      },
+      "message": "resolv_cache_lookup: lookup"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 336,
+        "tid": 13213,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 612000000
+        }
+      },
+      "message": "resolv_cache_lookup: FOUND IN CACHE entry\u003d0x7c6fefac1a90"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 336,
+        "tid": 13213,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 612000000
+        }
+      },
+      "message": "doQuery: rcode\u003d0, ancount\u003d1"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13216,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "com.tourmate.s",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 691000000
+        }
+      },
+      "message": "Accessing hidden field Ljava/net/Socket;-\u003eimpl:Ljava/net/SocketImpl; (unsupported, reflection, allowed)"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13216,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "com.tourmate.s",
+        "timestamp": {
+          "seconds": 1740926817,
+          "nanos": 720000000
+        }
+      },
+      "message": "Accessing hidden method Ljava/security/spec/ECParameterSpec;-\u003esetCurveName(Ljava/lang/String;)V (unsupported, reflection, allowed)"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13165,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "DynamiteModule",
+        "timestamp": {
+          "seconds": 1740926818,
+          "nanos": 566000000
+        }
+      },
+      "message": "Local module descriptor class for com.google.android.gms.googlecertificates not found."
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 13131,
+        "tid": 13165,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "DynamiteModule",
+        "timestamp": {
+          "seconds": 1740926818,
+          "nanos": 573000000
+        }
+      },
+      "message": "Considering local module com.google.android.gms.googlecertificates:0 and remote module com.google.android.gms.googlecertificates:7"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 13131,
+        "tid": 13165,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "DynamiteModule",
+        "timestamp": {
+          "seconds": 1740926818,
+          "nanos": 573000000
+        }
+      },
+      "message": "Selected remote version of com.google.android.gms.googlecertificates, version \u003e\u003d 7"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13165,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "com.tourmate.s",
+        "timestamp": {
+          "seconds": 1740926818,
+          "nanos": 581000000
+        }
+      },
+      "message": "ClassLoaderContext type mismatch. expected\u003dPCL, found\u003dDLC (PCL[] | DLC[];PCL[/data/app/~~wrwwd0O1t96k1ghU4fj8eg\u003d\u003d/com.tourmate.sg-MvoAvw3ADf2ck3OoYcSp_A\u003d\u003d/base.apk*2745756867:/data/app/~~wrwwd0O1t96k1ghU4fj8eg\u003d\u003d/com.tourmate.sg-MvoAvw3ADf2ck3OoYcSp_A\u003d\u003d/base.apk!classes2.dex*3950804239:/data/app/~~wrwwd0O1t96k1ghU4fj8eg\u003d\u003d/com.tourmate.sg-MvoAvw3ADf2ck3OoYcSp_A\u003d\u003d/base.apk!classes3.dex*4014188313:/data/app/~~wrwwd0O1t96k1ghU4fj8eg\u003d\u003d/com.tourmate.sg-MvoAvw3ADf2ck3OoYcSp_A\u003d\u003d/base.apk!classes4.dex*315488290:/data/app/~~wrwwd0O1t96k1ghU4fj8eg\u003d\u003d/com.tourmate.sg-MvoAvw3ADf2ck3OoYcSp_A\u003d\u003d/base.apk!classes5.dex*2894269075]{PCL[/system/framework/org.apache.http.legacy.jar*2058259660]})"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 13131,
+        "tid": 13155,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "SnapshotHandler",
+        "timestamp": {
+          "seconds": 1740926818,
+          "nanos": 620000000
+        }
+      },
+      "message": "Unable to retrieve flag snapshot for com.google.android.libraries.consentverifier#com.tourmate.sg, using defaults."
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13156,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "MobStoreFlagStore",
+        "timestamp": {
+          "seconds": 1740926818,
+          "nanos": 626000000
+        }
+      },
+      "message": "Unable to update local snapshot for com.google.android.libraries.consentverifier#com.tourmate.sg, may result in stale flags.\njava.util.concurrent.ExecutionException: java.lang.SecurityException: GoogleCertificatesRslt: not allowed: pkg\u003dcom.tourmate.sg, sha256\u003d[7be5517fc3a49f0342b152a9e6ef13827e4d6ed974e72f8ff8e05e322b628f6b], atk\u003dtrue, ver\u003d225014047.true (go/gsrlt)\n\tat ajg.s(:com.google.android.gms.dynamite_mapsdynamite@225014047@22.50.14 (190800-0):3)\n\tat ajg.get(:com.google.android.gms.dynamite_mapsdynamite@225014047@22.50.14 (190800-0):2)\n\tat akq.g(:com.google.android.gms.dynamite_mapsdynamite@225014047@22.50.14 (190800-0):2)\n\tat yo.d(:com.google.android.gms.dynamite_mapsdynamite@225014047@22.50.14 (190800-0):1)\n\tat yq.run(:com.google.android.gms.dynamite_mapsdynamite@225014047@22.50.14 (190800-0):0)\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)\n\tat java.lang.Thread.run(Thread.java:920)\nCaused by: java.lang.SecurityException: GoogleCertificatesRslt: not allowed: pkg\u003dcom.tourmate.sg, sha256\u003d[7be5517fc3a49f0342b152a9e6ef13827e4d6ed974e72f8ff8e05e322b628f6b], atk\u003dtrue, ver\u003d225014047.true (go/gsrlt)\n\tat android.os.Parcel.createExceptionOrNull(Parcel.java:2426)\n\tat android.os.Parcel.createException(Parcel.java:2410)\n\tat android.os.Parcel.readException(Parcel.java:2393)\n\tat android.os.Parcel.readException(Parcel.java:2335)\n\tat fc.c(:com.google.android.gms.dynamite_mapsdynamite@225014047@22.50.14 (190800-0):2)\n\tat rr.a(:com.google.android.gms.dynamite_mapsdynamite@225014047@22.50.14 (190800-0):4)\n\tat ji.e(:com.google.android.gms.dynamite_mapsdynamite@225014047@22.50.14 (190800-0):2)\n\tat kh.t(:com.google.android.gms.dynamite_mapsdynamite@225014047@22.50.14 (190800-0):2)\n\tat kh.u(:com.google.android.gms.dynamite_mapsdynamite@225014047@22.50.14 (190800-0):3)\n\tat kh.e(:com.google.android.gms.dynamite_mapsdynamite@225014047@22.50.14 (190800-0):2)\n\tat kl.handleMessage(:com.google.android.gms.dynamite_mapsdynamite@225014047@22.50.14 (190800-0):69)\n\tat android.os.Handler.dispatchMessage(Handler.java:102)\n\tat android.os.Looper.loopOnce(Looper.java:201)\n\tat android.os.Looper.loop(Looper.java:288)\n\tat android.os.HandlerThread.run(HandlerThread.java:67)"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 967,
+        "tid": 1028,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1740926820,
+          "nanos": 23000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d282.91ms min\u003d12.27ms max\u003d2417.34ms count\u003d9"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13218,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "ProfileInstaller",
+        "timestamp": {
+          "seconds": 1740926822,
+          "nanos": 263000000
+        }
+      },
+      "message": "Installing profile for com.tourmate.sg"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "com.tourmate.s",
+        "timestamp": {
+          "seconds": 1740926823,
+          "nanos": 594000000
+        }
+      },
+      "message": "Accessing hidden method Ljava/lang/invoke/MethodHandles$Lookup;-\u003e\u003cinit\u003e(Ljava/lang/Class;I)V (unsupported, reflection, allowed)"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13149,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1740926823,
+          "nanos": 603000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d659.92ms min\u003d3.37ms max\u003d5582.15ms count\u003d10"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "com.tourmate.s",
+        "timestamp": {
+          "seconds": 1740926823,
+          "nanos": 755000000
+        }
+      },
+      "message": "Accessing hidden method Ldalvik/system/CloseGuard;-\u003eget()Ldalvik/system/CloseGuard; (unsupported,core-platform-api, reflection, allowed)"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "com.tourmate.s",
+        "timestamp": {
+          "seconds": 1740926823,
+          "nanos": 756000000
+        }
+      },
+      "message": "Accessing hidden method Ldalvik/system/CloseGuard;-\u003eopen(Ljava/lang/String;)V (unsupported,core-platform-api, reflection, allowed)"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "com.tourmate.s",
+        "timestamp": {
+          "seconds": 1740926823,
+          "nanos": 756000000
+        }
+      },
+      "message": "Accessing hidden method Ldalvik/system/CloseGuard;-\u003ewarnIfOpen()V (unsupported,core-platform-api, reflection, allowed)"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 336,
+        "tid": 13225,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740926823,
+          "nanos": 953000000
+        }
+      },
+      "message": "GetAddrInfoHandler::run: {101 101 101 983141 10145 0}"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 336,
+        "tid": 13225,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740926823,
+          "nanos": 953000000
+        }
+      },
+      "message": "resolv_getaddrinfo: explore_fqdn(): ai_family\u003d0 ai_socktype\u003d1 ai_protocol\u003d6"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 336,
+        "tid": 13226,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740926823,
+          "nanos": 957000000
+        }
+      },
+      "message": "doQuery: (1, 28)"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 336,
+        "tid": 13226,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740926823,
+          "nanos": 957000000
+        }
+      },
+      "message": "res_nmkquery: (QUERY, IN, AAAA)"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 336,
+        "tid": 13227,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740926823,
+          "nanos": 957000000
+        }
+      },
+      "message": "doQuery: (1, 1)"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 336,
+        "tid": 13226,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740926823,
+          "nanos": 957000000
+        }
+      },
+      "message": "res_nsend"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 336,
+        "tid": 13227,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740926823,
+          "nanos": 957000000
+        }
+      },
+      "message": "res_nmkquery: (QUERY, IN, A)"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 336,
+        "tid": 13226,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740926823,
+          "nanos": 957000000
+        }
+      },
+      "message": "resolv_cache_lookup: lookup"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 336,
+        "tid": 13227,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740926823,
+          "nanos": 957000000
+        }
+      },
+      "message": "res_nsend"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 336,
+        "tid": 13227,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740926823,
+          "nanos": 957000000
+        }
+      },
+      "message": "resolv_cache_lookup: lookup"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 336,
+        "tid": 13226,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740926823,
+          "nanos": 957000000
+        }
+      },
+      "message": "resolv_cache_lookup: FOUND IN CACHE entry\u003d0x7c6fffad2e50"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 336,
+        "tid": 13226,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740926823,
+          "nanos": 957000000
+        }
+      },
+      "message": "doQuery: rcode\u003d0, ancount\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 336,
+        "tid": 13227,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740926823,
+          "nanos": 957000000
+        }
+      },
+      "message": "resolv_cache_lookup: FOUND IN CACHE entry\u003d0x7c6fefac49d0"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 336,
+        "tid": 13227,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740926823,
+          "nanos": 958000000
+        }
+      },
+      "message": "doQuery: rcode\u003d0, ancount\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "CompatibilityChangeReporter",
+        "timestamp": {
+          "seconds": 1740926824,
+          "nanos": 128000000
+        }
+      },
+      "message": "Compat change id reported: 147798919; UID 10145; state: ENABLED"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13221,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "System.err",
+        "timestamp": {
+          "seconds": 1740926824,
+          "nanos": 131000000
+        }
+      },
+      "message": "java.lang.NullPointerException: Attempt to invoke interface method \u0027boolean java.util.Collection.isEmpty()\u0027 on a null object reference"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13221,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "System.err",
+        "timestamp": {
+          "seconds": 1740926824,
+          "nanos": 131000000
+        }
+      },
+      "message": "\tat com.tourmate.sg.WeatherFragment$fetchWeather$1.invokeSuspend(WeatherFragment.kt:45)"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13221,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "System.err",
+        "timestamp": {
+          "seconds": 1740926824,
+          "nanos": 131000000
+        }
+      },
+      "message": "\tat kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13221,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "System.err",
+        "timestamp": {
+          "seconds": 1740926824,
+          "nanos": 131000000
+        }
+      },
+      "message": "\tat kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13221,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "System.err",
+        "timestamp": {
+          "seconds": 1740926824,
+          "nanos": 131000000
+        }
+      },
+      "message": "\tat kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:115)"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13221,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "System.err",
+        "timestamp": {
+          "seconds": 1740926824,
+          "nanos": 132000000
+        }
+      },
+      "message": "\tat kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:103)"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13221,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "System.err",
+        "timestamp": {
+          "seconds": 1740926824,
+          "nanos": 133000000
+        }
+      },
+      "message": "\tat kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13221,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "System.err",
+        "timestamp": {
+          "seconds": 1740926824,
+          "nanos": 134000000
+        }
+      },
+      "message": "\tat kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13221,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "System.err",
+        "timestamp": {
+          "seconds": 1740926824,
+          "nanos": 134000000
+        }
+      },
+      "message": "\tat kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 967,
+        "tid": 967,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "ziparchive",
+        "timestamp": {
+          "seconds": 1740926824,
+          "nanos": 134000000
+        }
+      },
+      "message": "Unable to open \u0027/data/app/~~qJB03xwbBdC8y8PC5gmhUw\u003d\u003d/com.tourmate.sg-PI0aFdWkA6Xv9cIkyyFPYg\u003d\u003d/base.apk\u0027: No such file or directory"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 967,
+        "tid": 967,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "ndroid.systemu",
+        "timestamp": {
+          "seconds": 1740926824,
+          "nanos": 135000000
+        }
+      },
+      "message": "Failed to open APK \u0027/data/app/~~qJB03xwbBdC8y8PC5gmhUw\u003d\u003d/com.tourmate.sg-PI0aFdWkA6Xv9cIkyyFPYg\u003d\u003d/base.apk\u0027: I/O error"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 967,
+        "tid": 967,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "ResourcesManager",
+        "timestamp": {
+          "seconds": 1740926824,
+          "nanos": 135000000
+        }
+      },
+      "message": "failed to preload asset path \u0027/data/app/~~qJB03xwbBdC8y8PC5gmhUw\u003d\u003d/com.tourmate.sg-PI0aFdWkA6Xv9cIkyyFPYg\u003d\u003d/base.apk\u0027\njava.io.IOException: Failed to load asset path /data/app/~~qJB03xwbBdC8y8PC5gmhUw\u003d\u003d/com.tourmate.sg-PI0aFdWkA6Xv9cIkyyFPYg\u003d\u003d/base.apk\n\tat android.content.res.ApkAssets.nativeLoad(Native Method)\n\tat android.content.res.ApkAssets.\u003cinit\u003e(ApkAssets.java:295)\n\tat android.content.res.ApkAssets.loadFromPath(ApkAssets.java:144)\n\tat android.app.ResourcesManager.loadApkAssets(ResourcesManager.java:454)\n\tat android.app.ResourcesManager.access$000(ResourcesManager.java:72)\n\tat android.app.ResourcesManager$ApkAssetsSupplier.load(ResourcesManager.java:168)\n\tat android.app.ResourcesManager.createApkAssetsSupplierNotLocked(ResourcesManager.java:980)\n\tat android.app.ResourcesManager.getResources(ResourcesManager.java:1101)\n\tat android.app.ActivityThread.getTopLevelResources(ActivityThread.java:2372)\n\tat android.app.ApplicationPackageManager.getResourcesForApplication(ApplicationPackageManager.java:1751)\n\tat android.app.ApplicationPackageManager.getResourcesForApplication(ApplicationPackageManager.java:1737)\n\tat android.app.ApplicationPackageManager.getDrawable(ApplicationPackageManager.java:1506)\n\tat android.app.ApplicationPackageManager.loadUnbadgedItemIcon(ApplicationPackageManager.java:3029)\n\tat android.content.pm.PackageItemInfo.loadUnbadgedIcon(PackageItemInfo.java:290)\n\tat com.android.systemui.toast.SystemUIToast.getBadgedIcon(SystemUIToast.java:284)\n\tat com.android.systemui.toast.SystemUIToast.inflateToastView(SystemUIToast.java:198)\n\tat com.android.systemui.toast.SystemUIToast.\u003cinit\u003e(SystemUIToast.java:90)\n\tat com.android.systemui.toast.SystemUIToast.\u003cinit\u003e(SystemUIToast.java:77)\n\tat com.android.systemui.toast.ToastFactory.createToast(ToastFactory.java:78)\n\tat com.android.systemui.toast.ToastUI.lambda$showToast$0(ToastUI.java:113)\n\tat com.android.systemui.toast.ToastUI.$r8$lambda$w_gPCh3F8Xxn1jN4lkQZoUci71c(Unknown Source:0)\n\tat com.android.systemui.toast.ToastUI$$ExternalSyntheticLambda0.run(Unknown Source:16)\n\tat com.android.systemui.toast.ToastUI.showToast(ToastUI.java:140)\n\tat com.android.systemui.statusbar.CommandQueue$H.handleMessage(CommandQueue.java:1431)\n\tat android.os.Handler.dispatchMessage(Handler.java:106)\n\tat android.os.Looper.loopOnce(Looper.java:201)\n\tat android.os.Looper.loop(Looper.java:288)\n\tat android.app.ActivityThread.main(ActivityThread.java:7839)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 967,
+        "tid": 967,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "ziparchive",
+        "timestamp": {
+          "seconds": 1740926824,
+          "nanos": 136000000
+        }
+      },
+      "message": "Unable to open \u0027/data/app/~~qJB03xwbBdC8y8PC5gmhUw\u003d\u003d/com.tourmate.sg-PI0aFdWkA6Xv9cIkyyFPYg\u003d\u003d/base.apk\u0027: No such file or directory"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 967,
+        "tid": 967,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "ndroid.systemu",
+        "timestamp": {
+          "seconds": 1740926824,
+          "nanos": 136000000
+        }
+      },
+      "message": "Failed to open APK \u0027/data/app/~~qJB03xwbBdC8y8PC5gmhUw\u003d\u003d/com.tourmate.sg-PI0aFdWkA6Xv9cIkyyFPYg\u003d\u003d/base.apk\u0027: I/O error"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 967,
+        "tid": 967,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "ResourcesManager",
+        "timestamp": {
+          "seconds": 1740926824,
+          "nanos": 138000000
+        }
+      },
+      "message": "failed to add asset path \u0027/data/app/~~qJB03xwbBdC8y8PC5gmhUw\u003d\u003d/com.tourmate.sg-PI0aFdWkA6Xv9cIkyyFPYg\u003d\u003d/base.apk\u0027\njava.io.IOException: Failed to load asset path /data/app/~~qJB03xwbBdC8y8PC5gmhUw\u003d\u003d/com.tourmate.sg-PI0aFdWkA6Xv9cIkyyFPYg\u003d\u003d/base.apk\n\tat android.content.res.ApkAssets.nativeLoad(Native Method)\n\tat android.content.res.ApkAssets.\u003cinit\u003e(ApkAssets.java:295)\n\tat android.content.res.ApkAssets.loadFromPath(ApkAssets.java:144)\n\tat android.app.ResourcesManager.loadApkAssets(ResourcesManager.java:454)\n\tat android.app.ResourcesManager.access$000(ResourcesManager.java:72)\n\tat android.app.ResourcesManager$ApkAssetsSupplier.load(ResourcesManager.java:168)\n\tat android.app.ResourcesManager.createAssetManager(ResourcesManager.java:530)\n\tat android.app.ResourcesManager.createResourcesImpl(ResourcesManager.java:612)\n\tat android.app.ResourcesManager.findOrCreateResourcesImplForKeyLocked(ResourcesManager.java:664)\n\tat android.app.ResourcesManager.createResources(ResourcesManager.java:1011)\n\tat android.app.ResourcesManager.getResources(ResourcesManager.java:1114)\n\tat android.app.ActivityThread.getTopLevelResources(ActivityThread.java:2372)\n\tat android.app.ApplicationPackageManager.getResourcesForApplication(ApplicationPackageManager.java:1751)\n\tat android.app.ApplicationPackageManager.getResourcesForApplication(ApplicationPackageManager.java:1737)\n\tat android.app.ApplicationPackageManager.getDrawable(ApplicationPackageManager.java:1506)\n\tat android.app.ApplicationPackageManager.loadUnbadgedItemIcon(ApplicationPackageManager.java:3029)\n\tat android.content.pm.PackageItemInfo.loadUnbadgedIcon(PackageItemInfo.java:290)\n\tat com.android.systemui.toast.SystemUIToast.getBadgedIcon(SystemUIToast.java:284)\n\tat com.android.systemui.toast.SystemUIToast.inflateToastView(SystemUIToast.java:198)\n\tat com.android.systemui.toast.SystemUIToast.\u003cinit\u003e(SystemUIToast.java:90)\n\tat com.android.systemui.toast.SystemUIToast.\u003cinit\u003e(SystemUIToast.java:77)\n\tat com.android.systemui.toast.ToastFactory.createToast(ToastFactory.java:78)\n\tat com.android.systemui.toast.ToastUI.lambda$showToast$0(ToastUI.java:113)\n\tat com.android.systemui.toast.ToastUI.$r8$lambda$w_gPCh3F8Xxn1jN4lkQZoUci71c(Unknown Source:0)\n\tat com.android.systemui.toast.ToastUI$$ExternalSyntheticLambda0.run(Unknown Source:16)\n\tat com.android.systemui.toast.ToastUI.showToast(ToastUI.java:140)\n\tat com.android.systemui.statusbar.CommandQueue$H.handleMessage(CommandQueue.java:1431)\n\tat android.os.Handler.dispatchMessage(Handler.java:106)\n\tat android.os.Looper.loopOnce(Looper.java:201)\n\tat android.os.Looper.loop(Looper.java:288)\n\tat android.app.ActivityThread.main(ActivityThread.java:7839)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 967,
+        "tid": 967,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "PackageManager",
+        "timestamp": {
+          "seconds": 1740926824,
+          "nanos": 139000000
+        }
+      },
+      "message": "Failure retrieving resources for com.tourmate.sg"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 13131,
+        "tid": 13221,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "System.err",
+        "timestamp": {
+          "seconds": 1740926824,
+          "nanos": 139000000
+        }
+      },
+      "message": "\tat kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 358,
+        "tid": 413,
+        "applicationId": "android.hardware.graphics.allocator@3.0-service",
+        "processName": "android.hardware.graphics.allocator@3.0-service",
+        "tag": "goldfish-address-space",
+        "timestamp": {
+          "seconds": 1740926824,
+          "nanos": 163000000
+        }
+      },
+      "message": "claimShared: Ask to claim region [0x3e7e06000 0x3e7e8d000]"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 358,
+        "tid": 413,
+        "applicationId": "android.hardware.graphics.allocator@3.0-service",
+        "processName": "android.hardware.graphics.allocator@3.0-service",
+        "tag": "goldfish-address-space",
+        "timestamp": {
+          "seconds": 1740926824,
+          "nanos": 185000000
+        }
+      },
+      "message": "claimShared: Ask to claim region [0x3e7e8d000 0x3e7f14000]"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 358,
+        "tid": 358,
+        "applicationId": "android.hardware.graphics.allocator@3.0-service",
+        "processName": "android.hardware.graphics.allocator@3.0-service",
+        "tag": "goldfish-address-space",
+        "timestamp": {
+          "seconds": 1740926824,
+          "nanos": 192000000
+        }
+      },
+      "message": "claimShared: Ask to claim region [0x3e7b2b000 0x3e7bb2000]"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 967,
+        "tid": 1028,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1740926826,
+          "nanos": 488000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d6465.22ms min\u003d6465.22ms max\u003d6465.22ms count\u003d1"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 967,
+        "tid": 1028,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1740926827,
+          "nanos": 987000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d188.99ms min\u003d3.26ms max\u003d3485.02ms count\u003d19"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 574,
+        "tid": 624,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "InputManager-JNI",
+        "timestamp": {
+          "seconds": 1740926828,
+          "nanos": 222000000
+        }
+      },
+      "message": "Input channel object \u0027a0ece3b Toast (client)\u0027 was disposed without first being removed with the input manager!"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 574,
+        "tid": 624,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "NotificationService",
+        "timestamp": {
+          "seconds": 1740926828,
+          "nanos": 225000000
+        }
+      },
+      "message": "Toast already killed. pkg\u003dcom.tourmate.sg token\u003dandroid.os.BinderProxy@e4fc0ed"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13149,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1740926831,
+          "nanos": 288000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d147.31ms min\u003d5.28ms max\u003d6834.08ms count\u003d52"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 415,
+        "tid": 537,
+        "applicationId": "audioserver",
+        "processName": "audioserver",
+        "tag": "AudioFlinger",
+        "timestamp": {
+          "seconds": 1740926831,
+          "nanos": 293000000
+        }
+      },
+      "message": "mixer(0x7e300b998a70) throttle end: throttle time(36)"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "MapsInitializer",
+        "timestamp": {
+          "seconds": 1740926831,
+          "nanos": 310000000
+        }
+      },
+      "message": "preferredRenderer: null"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "zzcc",
+        "timestamp": {
+          "seconds": 1740926831,
+          "nanos": 310000000
+        }
+      },
+      "message": "preferredRenderer: null"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "Google Maps Android API",
+        "timestamp": {
+          "seconds": 1740926831,
+          "nanos": 312000000
+        }
+      },
+      "message": "Google Play services package version: 225014047"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 13131,
+        "tid": 13131,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "Google Maps Android API",
+        "timestamp": {
+          "seconds": 1740926831,
+          "nanos": 312000000
+        }
+      },
+      "message": "Google Play services maps renderer version(legacy): 203115000"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13237,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "HostConnection",
+        "timestamp": {
+          "seconds": 1740926831,
+          "nanos": 407000000
+        }
+      },
+      "message": "createUnique: call"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13237,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "HostConnection",
+        "timestamp": {
+          "seconds": 1740926831,
+          "nanos": 408000000
+        }
+      },
+      "message": "HostConnection::get() New Host Connection established 0x759abcd96310, tid 13237"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13237,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "HostConnection",
+        "timestamp": {
+          "seconds": 1740926831,
+          "nanos": 412000000
+        }
+      },
+      "message": "HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1 "
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13237,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1740926831,
+          "nanos": 425000000
+        }
+      },
+      "message": "eglCreateContext: 0x759abcd9ef50: maj 1 min 0 rcv 1"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 358,
+        "tid": 358,
+        "applicationId": "android.hardware.graphics.allocator@3.0-service",
+        "processName": "android.hardware.graphics.allocator@3.0-service",
+        "tag": "goldfish-address-space",
+        "timestamp": {
+          "seconds": 1740926831,
+          "nanos": 426000000
+        }
+      },
+      "message": "claimShared: Ask to claim region [0x3e8000000 0x3e8eae000]"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13237,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1740926831,
+          "nanos": 514000000
+        }
+      },
+      "message": "eglMakeCurrent: 0x759abcd9ef50: ver 1 0 (tinfo 0x759ce58fc180) (first time)"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 13131,
+        "tid": 13237,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1740926831,
+          "nanos": 514000000
+        }
+      },
+      "message": "eglMakeCurrent: 0x759abcd9ef50: ver 1 0 (tinfo 0x759ce58fc180) (first time)"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 358,
+        "tid": 358,
+        "applicationId": "android.hardware.graphics.allocator@3.0-service",
+        "processName": "android.hardware.graphics.allocator@3.0-service",
+        "tag": "goldfish-address-space",
+        "timestamp": {
+          "seconds": 1740926831,
+          "nanos": 601000000
+        }
+      },
+      "message": "claimShared: Ask to claim region [0x3e8eae000 0x3e9d5c000]"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 574,
+        "tid": 574,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "WindowManager",
+        "timestamp": {
+          "seconds": 1740926838,
+          "nanos": 967000000
+        }
+      },
+      "message": "removeWindowToken: Attempted to remove non-existing token: android.os.Binder@393226c"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 0,
+        "tid": 0,
+        "applicationId": "kernel",
+        "processName": "kernel",
+        "tag": "healthd",
+        "timestamp": {
+          "seconds": 1740926851,
+          "nanos": 7000000
+        }
+      },
+      "message": "battery l\u003d100 v\u003d5000 t\u003d25.0 h\u003d2 st\u003d4 c\u003d900000 fc\u003d300000 cc\u003d10 chg\u003d"
+    }
+  ]
+}

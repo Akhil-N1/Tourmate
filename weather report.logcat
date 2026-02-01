@@ -1,0 +1,713 @@
+{
+  "metadata": {
+    "device": {
+      "deviceId": "C:\\Users\\Akhil\\.android\\avd\\Pixel_6_Pro_API_31.avd",
+      "name": "Pixel 6 Pro API 31",
+      "serialNumber": "emulator-5554",
+      "isOnline": true,
+      "release": "12",
+      "sdk": 31,
+      "featureLevel": 31,
+      "model": "Pixel 6 Pro API 31",
+      "type": "HANDHELD",
+      "isEmulator": true
+    },
+    "filter": "package:mine ",
+    "projectApplicationIds": [
+      "com.tourmate.sg",
+      "com.tourmate.sg.test"
+    ]
+  },
+  "logcatMessages": [
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 369,
+        "tid": 369,
+        "applicationId": "android.hardware.power.stats@1.0-service.mock",
+        "processName": "android.hardware.power.stats@1.0-service.mock",
+        "tag": "android.hardware.power.stats@1.0-service-mock",
+        "timestamp": {
+          "seconds": 1740939629,
+          "nanos": 907000000
+        }
+      },
+      "message": "Failed to getEnergyData"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 967,
+        "tid": 1032,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "ControlsListingControllerImpl",
+        "timestamp": {
+          "seconds": 1740939629,
+          "nanos": 985000000
+        }
+      },
+      "message": "Subscribing callback, service count: 0"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 967,
+        "tid": 1032,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "ControlsListingControllerImpl",
+        "timestamp": {
+          "seconds": 1740939629,
+          "nanos": 990000000
+        }
+      },
+      "message": "Unsubscribing callback"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 18269,
+        "tid": 18286,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1740939630,
+          "nanos": 442000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d276.58ms min\u003d3.41ms max\u003d13449.88ms count\u003d51"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 415,
+        "tid": 537,
+        "applicationId": "audioserver",
+        "processName": "audioserver",
+        "tag": "AudioFlinger",
+        "timestamp": {
+          "seconds": 1740939630,
+          "nanos": 446000000
+        }
+      },
+      "message": "mixer(0x7e300b998a70) throttle end: throttle time(36)"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 336,
+        "tid": 18543,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740939630,
+          "nanos": 468000000
+        }
+      },
+      "message": "GetAddrInfoHandler::run: {103 103 103 983143 10145 0}"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 336,
+        "tid": 18543,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740939630,
+          "nanos": 468000000
+        }
+      },
+      "message": "resolv_getaddrinfo: explore_fqdn(): ai_family\u003d0 ai_socktype\u003d1 ai_protocol\u003d6"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 336,
+        "tid": 18544,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740939630,
+          "nanos": 469000000
+        }
+      },
+      "message": "doQuery: (1, 28)"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 336,
+        "tid": 18545,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740939630,
+          "nanos": 469000000
+        }
+      },
+      "message": "doQuery: (1, 1)"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 336,
+        "tid": 18544,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740939630,
+          "nanos": 470000000
+        }
+      },
+      "message": "res_nmkquery: (QUERY, IN, AAAA)"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 336,
+        "tid": 18544,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740939630,
+          "nanos": 470000000
+        }
+      },
+      "message": "res_nsend"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 336,
+        "tid": 18545,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740939630,
+          "nanos": 470000000
+        }
+      },
+      "message": "res_nmkquery: (QUERY, IN, A)"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 336,
+        "tid": 18544,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740939630,
+          "nanos": 470000000
+        }
+      },
+      "message": "resolv_cache_lookup: lookup"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 336,
+        "tid": 18545,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740939630,
+          "nanos": 470000000
+        }
+      },
+      "message": "res_nsend"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 336,
+        "tid": 18544,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740939630,
+          "nanos": 470000000
+        }
+      },
+      "message": "resolv_cache_lookup: FOUND IN CACHE entry\u003d0x7c6fffacfa90"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 336,
+        "tid": 18544,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740939630,
+          "nanos": 470000000
+        }
+      },
+      "message": "doQuery: rcode\u003d0, ancount\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 336,
+        "tid": 18545,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740939630,
+          "nanos": 472000000
+        }
+      },
+      "message": "resolv_cache_lookup: lookup"
+    },
+    {
+      "header": {
+        "logLevel": "INFO",
+        "pid": 336,
+        "tid": 18545,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740939630,
+          "nanos": 472000000
+        }
+      },
+      "message": "resolv_cache_lookup: FOUND IN CACHE entry\u003d0x7c6fefac5b50"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 336,
+        "tid": 18545,
+        "applicationId": "netd",
+        "processName": "netd",
+        "tag": "resolv",
+        "timestamp": {
+          "seconds": 1740939630,
+          "nanos": 473000000
+        }
+      },
+      "message": "doQuery: rcode\u003d0, ancount\u003d2"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 18269,
+        "tid": 18423,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "System.err",
+        "timestamp": {
+          "seconds": 1740939630,
+          "nanos": 603000000
+        }
+      },
+      "message": "java.lang.NullPointerException: Attempt to invoke interface method \u0027boolean java.util.Collection.isEmpty()\u0027 on a null object reference"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 967,
+        "tid": 967,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "ziparchive",
+        "timestamp": {
+          "seconds": 1740939630,
+          "nanos": 603000000
+        }
+      },
+      "message": "Unable to open \u0027/data/app/~~qJB03xwbBdC8y8PC5gmhUw\u003d\u003d/com.tourmate.sg-PI0aFdWkA6Xv9cIkyyFPYg\u003d\u003d/base.apk\u0027: No such file or directory"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 967,
+        "tid": 967,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "ndroid.systemu",
+        "timestamp": {
+          "seconds": 1740939630,
+          "nanos": 603000000
+        }
+      },
+      "message": "Failed to open APK \u0027/data/app/~~qJB03xwbBdC8y8PC5gmhUw\u003d\u003d/com.tourmate.sg-PI0aFdWkA6Xv9cIkyyFPYg\u003d\u003d/base.apk\u0027: I/O error"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 18269,
+        "tid": 18423,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "System.err",
+        "timestamp": {
+          "seconds": 1740939630,
+          "nanos": 603000000
+        }
+      },
+      "message": "\tat com.tourmate.sg.WeatherFragment$fetchWeather$1.invokeSuspend(WeatherFragment.kt:45)"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 18269,
+        "tid": 18423,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "System.err",
+        "timestamp": {
+          "seconds": 1740939630,
+          "nanos": 603000000
+        }
+      },
+      "message": "\tat kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 967,
+        "tid": 967,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "ResourcesManager",
+        "timestamp": {
+          "seconds": 1740939630,
+          "nanos": 603000000
+        }
+      },
+      "message": "failed to preload asset path \u0027/data/app/~~qJB03xwbBdC8y8PC5gmhUw\u003d\u003d/com.tourmate.sg-PI0aFdWkA6Xv9cIkyyFPYg\u003d\u003d/base.apk\u0027\njava.io.IOException: Failed to load asset path /data/app/~~qJB03xwbBdC8y8PC5gmhUw\u003d\u003d/com.tourmate.sg-PI0aFdWkA6Xv9cIkyyFPYg\u003d\u003d/base.apk\n\tat android.content.res.ApkAssets.nativeLoad(Native Method)\n\tat android.content.res.ApkAssets.\u003cinit\u003e(ApkAssets.java:295)\n\tat android.content.res.ApkAssets.loadFromPath(ApkAssets.java:144)\n\tat android.app.ResourcesManager.loadApkAssets(ResourcesManager.java:454)\n\tat android.app.ResourcesManager.access$000(ResourcesManager.java:72)\n\tat android.app.ResourcesManager$ApkAssetsSupplier.load(ResourcesManager.java:168)\n\tat android.app.ResourcesManager.createApkAssetsSupplierNotLocked(ResourcesManager.java:980)\n\tat android.app.ResourcesManager.getResources(ResourcesManager.java:1101)\n\tat android.app.ActivityThread.getTopLevelResources(ActivityThread.java:2372)\n\tat android.app.ApplicationPackageManager.getResourcesForApplication(ApplicationPackageManager.java:1751)\n\tat android.app.ApplicationPackageManager.getResourcesForApplication(ApplicationPackageManager.java:1737)\n\tat android.app.ApplicationPackageManager.getDrawable(ApplicationPackageManager.java:1506)\n\tat android.app.ApplicationPackageManager.loadUnbadgedItemIcon(ApplicationPackageManager.java:3029)\n\tat android.content.pm.PackageItemInfo.loadUnbadgedIcon(PackageItemInfo.java:290)\n\tat com.android.systemui.toast.SystemUIToast.getBadgedIcon(SystemUIToast.java:284)\n\tat com.android.systemui.toast.SystemUIToast.inflateToastView(SystemUIToast.java:198)\n\tat com.android.systemui.toast.SystemUIToast.\u003cinit\u003e(SystemUIToast.java:90)\n\tat com.android.systemui.toast.SystemUIToast.\u003cinit\u003e(SystemUIToast.java:77)\n\tat com.android.systemui.toast.ToastFactory.createToast(ToastFactory.java:78)\n\tat com.android.systemui.toast.ToastUI.lambda$showToast$0(ToastUI.java:113)\n\tat com.android.systemui.toast.ToastUI.$r8$lambda$w_gPCh3F8Xxn1jN4lkQZoUci71c(Unknown Source:0)\n\tat com.android.systemui.toast.ToastUI$$ExternalSyntheticLambda0.run(Unknown Source:16)\n\tat com.android.systemui.toast.ToastUI.showToast(ToastUI.java:140)\n\tat com.android.systemui.statusbar.CommandQueue$H.handleMessage(CommandQueue.java:1431)\n\tat android.os.Handler.dispatchMessage(Handler.java:106)\n\tat android.os.Looper.loopOnce(Looper.java:201)\n\tat android.os.Looper.loop(Looper.java:288)\n\tat android.app.ActivityThread.main(ActivityThread.java:7839)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 967,
+        "tid": 967,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "ziparchive",
+        "timestamp": {
+          "seconds": 1740939630,
+          "nanos": 603000000
+        }
+      },
+      "message": "Unable to open \u0027/data/app/~~qJB03xwbBdC8y8PC5gmhUw\u003d\u003d/com.tourmate.sg-PI0aFdWkA6Xv9cIkyyFPYg\u003d\u003d/base.apk\u0027: No such file or directory"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 18269,
+        "tid": 18423,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "System.err",
+        "timestamp": {
+          "seconds": 1740939630,
+          "nanos": 604000000
+        }
+      },
+      "message": "\tat kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 18269,
+        "tid": 18423,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "System.err",
+        "timestamp": {
+          "seconds": 1740939630,
+          "nanos": 604000000
+        }
+      },
+      "message": "\tat kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:115)"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 18269,
+        "tid": 18423,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "System.err",
+        "timestamp": {
+          "seconds": 1740939630,
+          "nanos": 605000000
+        }
+      },
+      "message": "\tat kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:103)"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 18269,
+        "tid": 18423,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "System.err",
+        "timestamp": {
+          "seconds": 1740939630,
+          "nanos": 605000000
+        }
+      },
+      "message": "\tat kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 18269,
+        "tid": 18423,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "System.err",
+        "timestamp": {
+          "seconds": 1740939630,
+          "nanos": 605000000
+        }
+      },
+      "message": "\tat kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 18269,
+        "tid": 18423,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "System.err",
+        "timestamp": {
+          "seconds": 1740939630,
+          "nanos": 605000000
+        }
+      },
+      "message": "\tat kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 18269,
+        "tid": 18423,
+        "applicationId": "com.tourmate.sg",
+        "processName": "com.tourmate.sg",
+        "tag": "System.err",
+        "timestamp": {
+          "seconds": 1740939630,
+          "nanos": 605000000
+        }
+      },
+      "message": "\tat kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 967,
+        "tid": 967,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "ndroid.systemu",
+        "timestamp": {
+          "seconds": 1740939630,
+          "nanos": 606000000
+        }
+      },
+      "message": "Failed to open APK \u0027/data/app/~~qJB03xwbBdC8y8PC5gmhUw\u003d\u003d/com.tourmate.sg-PI0aFdWkA6Xv9cIkyyFPYg\u003d\u003d/base.apk\u0027: I/O error"
+    },
+    {
+      "header": {
+        "logLevel": "ERROR",
+        "pid": 967,
+        "tid": 967,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "ResourcesManager",
+        "timestamp": {
+          "seconds": 1740939630,
+          "nanos": 606000000
+        }
+      },
+      "message": "failed to add asset path \u0027/data/app/~~qJB03xwbBdC8y8PC5gmhUw\u003d\u003d/com.tourmate.sg-PI0aFdWkA6Xv9cIkyyFPYg\u003d\u003d/base.apk\u0027\njava.io.IOException: Failed to load asset path /data/app/~~qJB03xwbBdC8y8PC5gmhUw\u003d\u003d/com.tourmate.sg-PI0aFdWkA6Xv9cIkyyFPYg\u003d\u003d/base.apk\n\tat android.content.res.ApkAssets.nativeLoad(Native Method)\n\tat android.content.res.ApkAssets.\u003cinit\u003e(ApkAssets.java:295)\n\tat android.content.res.ApkAssets.loadFromPath(ApkAssets.java:144)\n\tat android.app.ResourcesManager.loadApkAssets(ResourcesManager.java:454)\n\tat android.app.ResourcesManager.access$000(ResourcesManager.java:72)\n\tat android.app.ResourcesManager$ApkAssetsSupplier.load(ResourcesManager.java:168)\n\tat android.app.ResourcesManager.createAssetManager(ResourcesManager.java:530)\n\tat android.app.ResourcesManager.createResourcesImpl(ResourcesManager.java:612)\n\tat android.app.ResourcesManager.findOrCreateResourcesImplForKeyLocked(ResourcesManager.java:664)\n\tat android.app.ResourcesManager.createResources(ResourcesManager.java:1011)\n\tat android.app.ResourcesManager.getResources(ResourcesManager.java:1114)\n\tat android.app.ActivityThread.getTopLevelResources(ActivityThread.java:2372)\n\tat android.app.ApplicationPackageManager.getResourcesForApplication(ApplicationPackageManager.java:1751)\n\tat android.app.ApplicationPackageManager.getResourcesForApplication(ApplicationPackageManager.java:1737)\n\tat android.app.ApplicationPackageManager.getDrawable(ApplicationPackageManager.java:1506)\n\tat android.app.ApplicationPackageManager.loadUnbadgedItemIcon(ApplicationPackageManager.java:3029)\n\tat android.content.pm.PackageItemInfo.loadUnbadgedIcon(PackageItemInfo.java:290)\n\tat com.android.systemui.toast.SystemUIToast.getBadgedIcon(SystemUIToast.java:284)\n\tat com.android.systemui.toast.SystemUIToast.inflateToastView(SystemUIToast.java:198)\n\tat com.android.systemui.toast.SystemUIToast.\u003cinit\u003e(SystemUIToast.java:90)\n\tat com.android.systemui.toast.SystemUIToast.\u003cinit\u003e(SystemUIToast.java:77)\n\tat com.android.systemui.toast.ToastFactory.createToast(ToastFactory.java:78)\n\tat com.android.systemui.toast.ToastUI.lambda$showToast$0(ToastUI.java:113)\n\tat com.android.systemui.toast.ToastUI.$r8$lambda$w_gPCh3F8Xxn1jN4lkQZoUci71c(Unknown Source:0)\n\tat com.android.systemui.toast.ToastUI$$ExternalSyntheticLambda0.run(Unknown Source:16)\n\tat com.android.systemui.toast.ToastUI.showToast(ToastUI.java:140)\n\tat com.android.systemui.statusbar.CommandQueue$H.handleMessage(CommandQueue.java:1431)\n\tat android.os.Handler.dispatchMessage(Handler.java:106)\n\tat android.os.Looper.loopOnce(Looper.java:201)\n\tat android.os.Looper.loop(Looper.java:288)\n\tat android.app.ActivityThread.main(ActivityThread.java:7839)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 967,
+        "tid": 967,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "PackageManager",
+        "timestamp": {
+          "seconds": 1740939630,
+          "nanos": 606000000
+        }
+      },
+      "message": "Failure retrieving resources for com.tourmate.sg"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 358,
+        "tid": 358,
+        "applicationId": "android.hardware.graphics.allocator@3.0-service",
+        "processName": "android.hardware.graphics.allocator@3.0-service",
+        "tag": "goldfish-address-space",
+        "timestamp": {
+          "seconds": 1740939630,
+          "nanos": 636000000
+        }
+      },
+      "message": "claimShared: Ask to claim region [0x3e7e06000 0x3e7e8d000]"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 358,
+        "tid": 358,
+        "applicationId": "android.hardware.graphics.allocator@3.0-service",
+        "processName": "android.hardware.graphics.allocator@3.0-service",
+        "tag": "goldfish-address-space",
+        "timestamp": {
+          "seconds": 1740939630,
+          "nanos": 821000000
+        }
+      },
+      "message": "claimShared: Ask to claim region [0x3e7e8d000 0x3e7f14000]"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 358,
+        "tid": 358,
+        "applicationId": "android.hardware.graphics.allocator@3.0-service",
+        "processName": "android.hardware.graphics.allocator@3.0-service",
+        "tag": "goldfish-address-space",
+        "timestamp": {
+          "seconds": 1740939630,
+          "nanos": 837000000
+        }
+      },
+      "message": "claimShared: Ask to claim region [0x3e7b2b000 0x3e7bb2000]"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 574,
+        "tid": 574,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "WindowManager",
+        "timestamp": {
+          "seconds": 1740939631,
+          "nanos": 135000000
+        }
+      },
+      "message": "removeWindowToken: Attempted to remove non-existing token: android.os.Binder@a5b8b9d"
+    },
+    {
+      "header": {
+        "logLevel": "DEBUG",
+        "pid": 967,
+        "tid": 1028,
+        "applicationId": "com.android.systemui",
+        "processName": "com.android.systemui",
+        "tag": "EGL_emulation",
+        "timestamp": {
+          "seconds": 1740939634,
+          "nanos": 474000000
+        }
+      },
+      "message": "app_time_stats: avg\u003d393.15ms min\u003d3.03ms max\u003d3481.82ms count\u003d9"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 574,
+        "tid": 3895,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "InputManager-JNI",
+        "timestamp": {
+          "seconds": 1740939634,
+          "nanos": 714000000
+        }
+      },
+      "message": "Input channel object \u0027ec509c2 Toast (client)\u0027 was disposed without first being removed with the input manager!"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 574,
+        "tid": 3895,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "NotificationService",
+        "timestamp": {
+          "seconds": 1740939634,
+          "nanos": 718000000
+        }
+      },
+      "message": "Toast already killed. pkg\u003dcom.tourmate.sg token\u003dandroid.os.BinderProxy@ba65e35"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 1534,
+        "tid": 2563,
+        "applicationId": "com.google.android.inputmethod.latin",
+        "processName": "com.google.android.inputmethod.latin",
+        "tag": "ProcessReaper",
+        "timestamp": {
+          "seconds": 1740939638,
+          "nanos": 151000000
+        }
+      },
+      "message": "Memory state is: 200"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 574,
+        "tid": 574,
+        "applicationId": "system_server",
+        "processName": "system_server",
+        "tag": "WindowManager",
+        "timestamp": {
+          "seconds": 1740939645,
+          "nanos": 440000000
+        }
+      },
+      "message": "removeWindowToken: Attempted to remove non-existing token: android.os.Binder@2a55b37"
+    },
+    {
+      "header": {
+        "logLevel": "WARN",
+        "pid": 1677,
+        "tid": 18550,
+        "applicationId": "com.google.android.googlequicksearchbox",
+        "processName": "com.google.android.googlequicksearchbox:interactor",
+        "tag": "ProcessReaper",
+        "timestamp": {
+          "seconds": 1740939647,
+          "nanos": 253000000
+        }
+      },
+      "message": "Memory state is: 125"
+    }
+  ]
+}
